@@ -3,6 +3,7 @@
 
 export const Statistics = ({title, stats}) =>{
 return (   
+    
      <section class="statistics">
 <h2 class="title">{title}</h2>
 
@@ -11,11 +12,12 @@ return (
     <li 
     key={stat.id}
     class="item">
-    <span class="label">{stats.label}</span>
-    <span class="percentage">{stats.percentage}</span>
+    <span class="label">{stat.label}</span>
+    <span class="percentage">{stat.percentage}%</span>
   </li>
 ))}
  
 </ul>
 </section>)
 };
+
