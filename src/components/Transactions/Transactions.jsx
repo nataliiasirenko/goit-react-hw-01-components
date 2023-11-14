@@ -1,6 +1,6 @@
-import {TransactionTable,
-  Head,
-
+import {
+  TransactionTable,
+  Head
 } from './Transaction.styled';
 
 

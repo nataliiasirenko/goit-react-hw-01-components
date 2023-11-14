@@ -41,6 +41,7 @@ display: flex;
 
 export const Item = styled.li`
   width: 28px;
+
   text-align: center;
   color: #fff;
   font-size:18px;
