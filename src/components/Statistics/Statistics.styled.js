@@ -3,10 +3,6 @@ import styled from 'styled-components';
 
 
 
-function getRandomHexColor() {
-  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-}
-
 
 export const Section = styled.section`
 padding-top: 15px;
@@ -41,16 +37,14 @@ list-style: none;
 text-align: center;
 display: flex;
 
-
-
 `
 
 export const Item = styled.li`
-width: 28px;
+  width: 28px;
   text-align: center;
   color: #fff;
-font-size:18px;
-font-style: bold;
+  font-size:18px;
+  font-style: bold;
   padding: 20px;
 
   display: flex;

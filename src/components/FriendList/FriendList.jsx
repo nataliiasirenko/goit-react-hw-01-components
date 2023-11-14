@@ -1,16 +1,16 @@
+import {FriendsItem} from './FriendsItem';
 
+import styles from './FriendList.module.css';
 
-export const FriendList = ({friends =[]}) => {
-    return (
-        <ul className ="friend-list">
-  {friends.map(friend => (
-    <li className ="item"
-    key ={friend.id}>
-    <span className ="status">{friend.isOnline}</span>
-    <img className ="avatar" src={friend.avatar} alt={friend.name} width="48" />
-    <p className ="name">{friend.name}</p>
-  </li>
-  ))}
-</ul>
-    )
-  };
+export const FriendList = ({ friends }) => {
+  const friend = friends.map(item => (
+    <FriendsItem
+      key={item.id}
+      avatar={item.avatar}
+      name={item.name}
+      isOnline={item.isOnline}
+    />
+  ));
+  return <ul className={styles.friendList}>{friend}</ul>;
+};
+
