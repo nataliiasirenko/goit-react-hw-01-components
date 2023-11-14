@@ -15,7 +15,7 @@
   .status {
     display: flex;
     justify-content: center;
-    color: rgb(7, 7, 7);
+    color: #483D8B;
     width: 30px;
     height: 30px;
     border: none;

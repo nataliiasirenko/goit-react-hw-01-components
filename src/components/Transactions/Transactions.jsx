@@ -1,14 +1,19 @@
+import {TransactionTable,
+  Head,
+
+} from './Transaction.styled';
+
 
 export const TransactionHistory =({items =[]})=>{
     return (
-        <table className ="transaction-history">
-          <thead>
+        <TransactionTable className ="transaction-history">
+          <Head>
             <tr>
               <th>Type</th>
               <th>Amount</th>
               <th>Currency</th>
             </tr>
-          </thead>
+          </Head>
              <tbody>
              {items.map(item => (
              <tr
@@ -17,9 +22,9 @@ export const TransactionHistory =({items =[]})=>{
                <td>{item.amount}</td>
                <td>{item.currency}</td>
              </tr>
-         ))};
+         ))}
            </tbody>
-         </table>
-          );
+         </TransactionTable>
+          )
      };
  
