@@ -12,7 +12,7 @@ import transactions from '../data/transactions';
 export const App = () => {
   return (
  <>
-  <Profile
+<Profile
     username={user.username}
     tag={user.tag}
     location={user.location}
