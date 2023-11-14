@@ -21,7 +21,7 @@ export const Item = styled.div`
 
   box-sizing: content-box;
   border-radius: 8px;
-  background: blue;
+  background: #483D8B;
 
   box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 `;
@@ -40,23 +40,23 @@ export const Avatar = styled.img`
 
 export const Name = styled.p`
   font-size: 35px;
-  color: #0c0c0c;
+  color: #483D8B;
 `;
 
 export const TagLocal = styled.p`
   font-size: 25px;
-  color: #0c0c0c;
+  color:#483D8B;
 `;
 
 export const Stats = styled.ul`
   font-size: larger;
-  font-style: italic;
+  font-style: bold;
   display: flex;
   justify-content: space-between;
   list-style: none;
   padding: 10px;
   border-radius: 8px;
-  background: yellow;
+  background-color: #ffff;
   box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 `;
 
@@ -67,5 +67,6 @@ export const StateList = styled.li`
 `;
 
 export const Span = styled.span`
-  color: #122ee5;
+font-size: 20px;
+color: #483D8B;
 `;
