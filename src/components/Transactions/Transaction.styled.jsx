@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export const TransactionTable = styled.table`
     width: 340px;
    
@@ -44,7 +43,7 @@ export const TransactionTable = styled.table`
         font-weight: bold;
       }
         
-  `
+  `;
 
 export const Head = styled.thead`
   margin-left: auto;
@@ -55,9 +54,7 @@ export const Head = styled.thead`
   padding-top: 0px;
   padding-bottom: 20px;
 
-   border-radius: 8px;
-   color:#E6E6FA;
-   background-color: #483D8B;
-
-
-  `
+  border-radius: 8px;
+  color: #e6e6fa;
+  background-color: #483d8b;
+`;

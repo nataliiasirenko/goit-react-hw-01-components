@@ -1,4 +1,4 @@
-import {FriendsItem} from './FriendsItem';
+import { FriendsItem } from './FriendsItem';
 
 import styles from './FriendList.module.css';
 
@@ -13,4 +13,3 @@ export const FriendList = ({ friends }) => {
   ));
   return <ul className={styles.friendList}>{friend}</ul>;
 };
-

@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-
-
 export const Item = styled.div`
   text-align: center;
 
@@ -14,7 +12,7 @@ export const Item = styled.div`
 
   box-sizing: content-box;
   border-radius: 8px;
-  background: #483D8B;
+  background: #483d8b;
 
   box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 `;
@@ -33,12 +31,12 @@ export const Avatar = styled.img`
 
 export const Name = styled.p`
   font-size: 35px;
-  color: #483D8B;
+  color: #483d8b;
 `;
 
 export const TagLocal = styled.p`
   font-size: 25px;
-  color:#483D8B;
+  color: #483d8b;
 `;
 
 export const Stats = styled.ul`
@@ -60,6 +58,6 @@ export const StateList = styled.li`
 `;
 
 export const Span = styled.span`
-font-size: 20px;
-color: #483D8B;
+  font-size: 20px;
+  color: #483d8b;
 `;

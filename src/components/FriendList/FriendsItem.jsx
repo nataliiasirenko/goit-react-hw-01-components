@@ -1,6 +1,5 @@
 import styles from './FriendsItem.module.css';
 
-
 export const FriendsItem = ({ avatar, name, isOnline }) => {
   const isActive = isOnline
     ? `${styles.status} ${styles.active}`
@@ -13,5 +12,3 @@ export const FriendsItem = ({ avatar, name, isOnline }) => {
     </li>
   );
 };
-
-
