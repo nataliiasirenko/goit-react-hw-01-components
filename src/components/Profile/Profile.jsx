@@ -12,7 +12,7 @@ import {
   Span,
 } from './Profile.styled';
 
-export const Profile = ({ username, tag, location, avatar, stats }) => {
+export const Profile = ({ username, tag, location, avatar, stats: { followers, views, likes } }) => {
   return (
     <Item>
       <Description>
@@ -25,15 +25,15 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
       <Stats>
         <StateList>
           <Span>Followers</Span>
-          <Span>{stats.followers}</Span>
+          <Span>{followers}</Span>
         </StateList>
         <StateList>
           <Span>Views</Span>
-          <Span>{stats.views}</Span>
+          <Span>{views}</Span>
         </StateList>
         <StateList>
           <Span>Likes</Span>
-          <Span>{stats.likes}</Span>
+          <Span>{likes}</Span>
         </StateList>
       </Stats>
     </Item>
