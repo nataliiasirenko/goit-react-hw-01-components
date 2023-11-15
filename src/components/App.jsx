@@ -6,7 +6,7 @@ import { TransactionHistory } from './Transactions/Transactions';
 import user from '../data/user';
 import data from '../data/data';
 import friends from '../data/friends';
-import transactions from '../data/transactions';
+import transactions from '../data/transactions';s
 
 export const App = () => {
   return (
