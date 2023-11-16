@@ -9,12 +9,12 @@
   }
 
 
-export const Statistics = ({title, stats}) =>{
+export const Statistics = ({title, stats =[]}) =>{
 return (   
-    
      <Section >
-<Header>{title}</Header>
-
+      {title && (
+  <Header>{title}</Header>
+        )}
 <Statlist>
     {stats.map(({id,label,percentage})=>( 
     <Item
